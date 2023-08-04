@@ -12,6 +12,9 @@
 		<property name="hibernate.connection.password">P@rdh@2002</property>
 		<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
 		<property name="show_sql">true</property>
-		<mapping resource="Employee.hbm.xml"/>
+		<!--mapping resource="Employee.hbm.xml"/>  -->
+		<mapping class="com.pardha.HybernateDemo.entity.Employee"/>
+		<mapping class="com.pardha.HybernateDemo.entity.Person"/>
+		<mapping class="com.pardha.HybernateDemo.entity.Address"/>
 	</session-factory>
 </hibernate-configuration>
